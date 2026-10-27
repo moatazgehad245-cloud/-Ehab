@@ -222,3 +222,14 @@ body {
     transform: none;
   }
 }
+
+/* تصغير الصورتين */
+img {
+  width: 180px;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 12px;
+}
+
