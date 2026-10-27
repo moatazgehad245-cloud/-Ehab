@@ -233,3 +233,19 @@ img {
   margin: 15px auto;
 }
 
+.photo-grid {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 15px !important;
+}
+
+.photo-grid img {
+  width: 100px !important;
+  max-width: 100px !important;
+  height: auto !important;
+  flex: 0 0 100px !important;
+  object-fit: contain !important;
+}
+
