@@ -224,13 +224,12 @@ body {
 }
 
 /* تصغير الصورتين */
-/* تصغير الصورتين */
 img {
-  width: 220px;
-  max-width: 80%;
-  height: auto;
+  width: 140px !important;
+  max-width: 140px !important;
+  height: auto !important;
+  object-fit: contain;
   display: block;
-  margin: 20px auto;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(255, 46, 126, .18);
+  margin: 15px auto;
 }
+
